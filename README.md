@@ -36,23 +36,18 @@ All plots are saved under `plots/` in subfolders for each city:
 
 ### Installing XCast
 
-XCast is available on Anaconda and can be installed with the following command:
-
-```bash
-conda install -c conda-forge -c hallkjc01 xcast
-```
 
 To set up an environment with Jupyter Notebook for XCast, use:
 
 ```bash
-conda create -n xcast_env -c conda-forge -c hallkjc01 xcast xarray netcdf4 jupyter ipykernel 
-conda activate xcast_env 
-python -m ipykernel install --name=xcast_env --user 
+conda env create -f xcast_env.yml
+conda activate xcast_env
+python -m ipykernel install --user --name=xcast_env
 ```
 
 You can then select `xcast_env` as the kernel in Jupyter Notebook.
 
-> **Note**: XCast installation might require you to manually downgrade certain packages. If you encounter any issues, please refer to the [XCast documentation](https://xcast-lib.github.io/).
+> **Note**: I have provided yml to build conda env due official installation package errors. If you encounter any issues, please refer to the official [XCast documentation](https://xcast-lib.github.io/)
 
 ### Running Snowfall Analysis
 
