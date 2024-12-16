@@ -4,6 +4,11 @@
 
 This repository includes the Colorado Snowfall Analysis Project, which explores historical snowfall and temperature trends across key Colorado cities, and provides instructions for installing and utilizing the XCast toolkit for advanced climate forecasting.
 
+## Acknowledgements
+
+- Weather data sourced from [NOAA CDO (Climate Data Online)](https://www.ncdc.noaa.gov/cdo-web/).
+- XCast toolkit by Kyle Hall & Nachiketa Acharya.
+
 ### What is XCast?
 XCast is a free and open-source climate forecasting toolkit developed by Kyle Hall & Nachiketa Acharya. It empowers forecasters and earth scientists to apply state-of-the-art postprocessing techniques to gridded datasets. Learn more on the [XCast documentation site](https://xcast-lib.github.io/).
 
@@ -61,17 +66,3 @@ You can then select `xcast_env` as the kernel in Jupyter Notebook.
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## Contact
-
-- For issues with the Colorado Snowfall Analysis project: Please make an issue in this repository.
-- For XCast-specific queries: [Open an issue here](https://github.com/kjhall01/xcast/issues).
-
----
-
-## Acknowledgements
-
-- Weather data sourced from [NOAA](https://www.noaa.gov/).
-- XCast toolkit by Kyle Hall & Nachiketa Acharya.
