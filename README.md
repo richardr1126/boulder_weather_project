@@ -1,9 +1,9 @@
 # Colorado Snowfall Analysis and XCast Toolkit Integration
 
 ## Team
-- [Richard Roberson](github.com/richardr1126)
-- [Sam Harris](github.com/srharris11)
-- [Sanghyun Shim](github.com/ssh2012)
+- [Richard Roberson](https://github.com/richardr1126)
+- [Sam Harris](https://github.com/srharris11)
+- [Sanghyun Shim](https://github.com/ssh2012)
 
 ## Overview
 
@@ -17,6 +17,8 @@ This repository includes the Colorado Snowfall Analysis Project, which explores 
 ### What is XCast?
 XCast is a free and open-source climate forecasting toolkit developed by Kyle Hall & Nachiketa Acharya. It empowers forecasters and earth scientists to apply state-of-the-art postprocessing techniques to gridded datasets. Learn more on the [XCast documentation site](https://xcast-lib.github.io/).
 
+<img src="plots/boulder/actual_vs_predicted_snowfall.png" alt="Boulder Snowfall Predictions" width="600"/>
+
 ---
 
 ### Data Cleaning
@@ -27,11 +29,11 @@ Each dataset was cleaned for uniformity and accuracy:
 - Created unified `date` columns.
 - Then drop any remaining NaN values.
 
-### Key Analyses
+<img src="plots/boulder/box_plot.png" alt="Boulder Data Distribution" width="200"/>
+<img src="plots/fortcollins/box_plot.png" alt="Fort Collins Data Distribution" width="200"/>
+<img src="plots/coloradosprings/box_plot.png" alt="Colorado Springs Data Distribution" width="200"/>
+<img src="plots/longmont/box_plot.png" alt="Longmont Data Distribution" width="200"/>
 
-1. **Snowfall Trends**: Seasonal and daily snowfall trends were visualized with cumulative summaries.
-2. **Temperature Analysis**: Analyzed daily, monthly, and seasonal temperatures using regression models.
-3. **Monthly Averages**: Insights into average snowcover and temperature changes by month.
 
 ### Visualizations
 
@@ -39,6 +41,13 @@ All plots are saved under `plots/` in subfolders for each city:
 - Daily and cumulative snowfall trends.
 - Temperature trends with regression analysis.
 - Seasonal and monthly summaries.
+
+Important plots:
+
+<img src="plots/boulder/october_temp.png" width="400"/>
+<img src="plots/fortcollins/avg_temp_by_season.png" width="400"/>
+<img src="plots/boulder/avg_temp_by_summer_months.png" width="400"/>
+<img src="plots/coloradosprings/avg_temp_by_month.png" width="400"/>
 
 ---
 
