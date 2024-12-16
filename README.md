@@ -29,10 +29,12 @@ Each dataset was cleaned for uniformity and accuracy:
 - Created unified `date` columns.
 - Then drop any remaining NaN values.
 
-<img src="plots/boulder/box_plot.png" alt="Boulder Data Distribution" width="200"/>
-<img src="plots/fortcollins/box_plot.png" alt="Fort Collins Data Distribution" width="200"/>
-<img src="plots/coloradosprings/box_plot.png" alt="Colorado Springs Data Distribution" width="200"/>
-<img src="plots/longmont/box_plot.png" alt="Longmont Data Distribution" width="200"/>
+<p float="left">
+  <img src="plots/boulder/box_plot.png" alt="Boulder Data Distribution" width="200"/>
+  <img src="plots/fortcollins/box_plot.png" alt="Fort Collins Data Distribution" width="200"/>
+  <img src="plots/coloradosprings/box_plot.png" alt="Colorado Springs Data Distribution" width="200"/>
+  <img src="plots/longmont/box_plot.png" alt="Longmont Data Distribution" width="200"/>
+</p>
 
 
 ### Visualizations
@@ -41,13 +43,14 @@ All plots are saved under `plots/` in subfolders for each city:
 - Daily and cumulative snowfall trends.
 - Temperature trends with regression analysis.
 - Seasonal and monthly summaries.
-
 Important plots:
 
-<img src="plots/boulder/october_temp.png" width="400"/>
-<img src="plots/fortcollins/avg_temp_by_season.png" width="400"/>
-<img src="plots/boulder/avg_temp_by_summer_months.png" width="400"/>
-<img src="plots/coloradosprings/avg_temp_by_month.png" width="400"/>
+<p float="left">
+  <img src="plots/boulder/october_temp.png" width="400"/>
+  <img src="plots/fortcollins/avg_temp_by_season.png" width="400"/>
+  <img src="plots/boulder/avg_temp_by_summer_months.png" width="400"/>
+  <img src="plots/coloradosprings/avg_temp_by_month.png" width="400"/>
+</p>
 
 ---
 
