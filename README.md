@@ -1,5 +1,10 @@
 # Colorado Snowfall Analysis and XCast Toolkit Integration
 
+## Team
+- [Richard Roberson](github.com/richardr1126)
+- [Sam Harris](github.com/srharris11)
+- [Sanghyun Shim](github.com/ssh2012)
+
 ## Overview
 
 This repository includes the Colorado Snowfall Analysis Project, which explores historical snowfall and temperature trends across key Colorado cities, and provides instructions for installing and utilizing the XCast toolkit for advanced climate forecasting.
@@ -12,7 +17,7 @@ This repository includes the Colorado Snowfall Analysis Project, which explores 
 ### What is XCast?
 XCast is a free and open-source climate forecasting toolkit developed by Kyle Hall & Nachiketa Acharya. It empowers forecasters and earth scientists to apply state-of-the-art postprocessing techniques to gridded datasets. Learn more on the [XCast documentation site](https://xcast-lib.github.io/).
 
-## Colorado Snowfall Analysis
+---
 
 ### Data Cleaning
 
