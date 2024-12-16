@@ -41,7 +41,6 @@ All plots are saved under `plots/` in subfolders for each city:
 
 ### Installing XCast
 
-
 To set up an environment with Jupyter Notebook for XCast, use:
 
 ```bash
